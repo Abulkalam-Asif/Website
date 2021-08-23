@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to GRIC | Homepage</title>
+
+	<!-- CSS files -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/responsive.css">
+	<link rel="stylesheet" href="./css/fa.css">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<header class="d-flex flex-row position-sticky px-3 py-1">
+		<div class="d-flex flex-row ps-3" id="headerLogoSection">
+			<a class="d-flex flex-row align-items-center text-decoration-none" id="logo" href="./index.html">
+				<img class="me-3" id="headerLogoImg" src="./images/logo.png" alt="logo">
+				<div class="d-none d-sm-block" id="verticalBar"></div>
+				<div class="d-flex flex-column ms-3 d-none d-sm-block" id="titleDiv">
+					<h1 class="text-center m-0">GRIC</h1>
+					<h4 class="text-center m-0">Haroonabad</h4>
+				</div>
+			</a>
+		</div>
+
+		<div class="d-flex align-items-center justify-content-end pe-3 py-2" id="hamburgerDiv">
+			<div id="hamburger">
+				<i class="fas fa-bars" id="fa"></i>
+			</div>
+		</div>
+
+		<nav class="position-fixed ps-3 py-5 hidden">
+			<ul class="d-flex flex-column list-unstyled mt-5" id="navLinks">
+				<li class="navLink mb-2"><a class="text-decoration-none" href="#">Home</a></li>
+				<li class="navLink mb-2"><a class="text-decoration-none" href="#">About</a></li>
+				<li class="navLink mb-2" id="admissionNavLink">
+					<a class="text-decoration-none" href="#">Admissions<img class="ms-2" id="angleIcon" src="./images/angle2.png"
+							alt="angle"></a>
+					<ul class="list-unstyled ms-4 admissionLinksHidden" id="admissionInnerLinks">
+						<li><a class="text-decoration-none" href="#">Apply for Fall 2021</a></li>
+						<li><a class="text-decoration-none" href="#">Offered Programs</a></li>
+						<li><a class="text-decoration-none" href="#">Fee Sturcture</a></li>
+					</ul>
+				</li>
+				<li class="navLink mb-2"><a class="text-decoration-none" href="#">Academics</a></li>
+				<li class="navLink mb-2"><a class="text-decoration-none" href="#">Contact</a></li>
+				<li class="d-flex flex-row justify-content-evenly mb-2" id="socialLinks">
+					<a class="text-center" href="https://www.facebook.com/gricharoonabad"><i class="fab fa-facebook"></i></a>
+					<a class="text-center" href="#"><i class="fab fa-twitter"></i></a>
+					<a class="text-center" href="#"><i class="fab fa-whatsapp"></i></a>
+					<a class="text-center" href="https://www.youtube.com/gricharoonabad"><i class="fab fa-youtube"></i></a>
+				</li>
+				<li class="d-flex flex-row justify-content-evenly me-3 mt-1" id="navBtns">
+					<a class="w-50 me-1 text-decoration-none text-center py-1" id="loginLink" href="./login.html">Login</a>
+					<a class="w-50 ms-1 text-decoration-none text-center py-1" id="signupLink" href="./signup.html">Sign Up</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="d-flex align-items-center justify-content-center" id="sec1">
+		<div id="slogan">
+			<h1 class="d-flex flex-column text-white align-items-center"><span>Know</span><span>Thyself</span></h1>
+		</div>
+	</section>
+
+	<footer class="py-5 px-4 bg-dark text-white">
+		<section id="footerRow1">
+			<div class="py-2" id="footerRow1-Col1">
+				<div class="mb-2" id="footerLogoSection">
+					<a href="./"><img id="footerLogoImg" src="./images/logo.png" alt="logo"></a>
+				</div>
+				<h2 class="pb-1 footerHeadings">Address</h2>
+				<div id="footerAddressSection">
+					<p class="my-1">2.5 km from Haroonabad</p>
+					<p class="mb-1">Bahawalnager Road | Haroonabad | 62100</p>
+					<p class="mb-1">Distt Bahawalnager | Punjab | Pakistan</p>
+				</div>
+			</div>
+			<div class="footerVerticalBars"></div>
+			<div class="py-2" id="footerRow1-Col2">
+				<h2 class="pb-1 footerHeadings">Navigation Links</h2>
+				<ul class="list-unstyled" id="footerNavLinks">
+					<li class="mb-1 footerNavLinks"><a class="text-decoration-none ps-4 pe-2 py-2" href="#"><i class="fas fa-chevron-right me-1 footerNavLinkIcons"></i>Home</a></li>
+					<li class="mb-1 footerNavLinks"><a class="text-decoration-none ps-4 pe-2 py-2" href="#"><i class="fas fa-chevron-right me-1 footerNavLinkIcons"></i>About</a></li>
+					<li class="mb-1 footerNavLinks"><a class="text-decoration-none ps-4 pe-2 py-2" href="#"><i class="fas fa-chevron-right me-1 footerNavLinkIcons"></i>Admissions</a></li>
+					<li class="mb-1 footerNavLinks"><a class="text-decoration-none ps-4 pe-2 py-2" href="#"><i class="fas fa-chevron-right me-1 footerNavLinkIcons"></i>Academics</a></li>
+					<li class="mb-1 footerNavLinks"><a class="text-decoration-none ps-4 pe-2 py-2" href="#"><i class="fas fa-chevron-right me-1 footerNavLinkIcons"></i>Contact</a></li>
+				</ul>
+			</div>
+			<div class="footerVerticalBars"></div>
+			<div class="py-2" id="footerRow1-Col3">
+				<h2 class="pb-1 footerHeadings">Subscribe to Newsletter</h2>
+				<div id="newsletterDiv">
+					<div class="bg-white px-3" id="newsletterNameDiv">
+						<i class="fas fa-signature text-dark me-2"></i>
+						<input class="border-0 py-2" type="text" name="newsletterName" id="newsletterNameInput"
+							placeholder="Enter Your Name">
+					</div>
+					<div class="bg-white px-3" id="newsletterEmailDiv">
+						<i class="fas fa-at text-dark me-2"></i>
+						<input class="border-0 py-2" type="text" name="newsletterEmail" id="newsletterEmailInput"
+							placeholder="Enter Your Email">
+					</div>
+					<button id="subscribeBtn">Subscribe<i class="fas fa-file-signature ms-2"></i></button>
+				</div>
+			</div>
+		</section>
+		<section id="footerRow2">
+			<div id="footerRow2-Col1"></div>
+			<div id="footerRow2-Col2"></div>
+		</section>
+	</footer>
+
+	<!-- JavaScript Files -->
+	<script src="./js/app.js"></script>
+	<script src="./js/fa.js"></script>
+	<script src="./js/bootstrap.js"></script>
+
+</body>
+
+</html>
